@@ -1,0 +1,35 @@
+body{
+    height:100vh;
+    background-color: #f0f0f0;
+}
+.mflex {
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.navbar{
+    height:11vh;
+}
+main{
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    align-items: flex-start;
+}
+#calendar{
+    max-width:fit-content;
+    max-width:75vw;
+    margin-left:0.4rem;
+    margin-top: 0.2rem;
+}
+.list-group{
+    margin:0.4rem;
+    margin-top:1rem;
+}
+
+#calendar,.events{
+    display:none;
+}
+.list-stuff{
+    min-width: 77vw;
+}
